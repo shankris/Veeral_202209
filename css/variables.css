@@ -1,0 +1,16 @@
+    :root {
+      --accent: #113577;
+      --bg1: #eee;
+      --bg2: #ddd;
+
+      --txtLink: #333;
+      --txt1: #000;
+      --txt2: #fff;
+      --txtDark1: #ddd;
+      --txtLight1: #eee;
+
+      --fonts: 'open sans', sans-serif;
+      --header: 70px;
+      --main: calc(100vh - var(--header) - var(--footer));
+      --footer: 60px;
+    }

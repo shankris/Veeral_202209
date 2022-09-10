@@ -1,0 +1,27 @@
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.logo {
+  font-size: 28px;
+  display: block;
+  font-family: 'open sans', sans-serif;
+  text-transform: uppercase;
+}
+
+.logo__First {
+  display: inline;
+  /* letter-spacing: -2px; */
+  font-weight: 800;
+  color: #fff;
+}
+
+.logo__Last {
+  display: inline;
+  font-weight: 100;
+  letter-spacing: -.4px;
+  color: rgb(199, 199, 199);
+}

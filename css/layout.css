@@ -1,0 +1,27 @@
+header,
+footer {
+  background-color: var(--accent);
+  color: var(--txt2);
+}
+
+header {
+  height: var(--header)
+}
+
+footer {
+  height: var(--footer)
+}
+
+main {
+  background-color: var(--bg1);
+  min-height: var(--main);
+  color: var(--txt1);
+  background-color: var(--bg1);
+}
+
+.container {
+  width: 96%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
