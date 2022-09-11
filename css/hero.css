@@ -1,0 +1,77 @@
+.hero {
+  height: 550px;
+  width: 100%;
+  background-color: rgb(235, 232, 232);
+  line-height: 1.2;
+  margin-top: var(--header);
+
+  /* background-image: url(../img/hero_power-lines.jpg); */
+  /* filter: grayscale(100%); */
+  /* background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(92, 92, 92)); */
+  background: linear-gradient(to left, rgba(255, 255, 255, 0) 1%,
+      rgba(255, 255, 255, 1)), url(../img/hero_power-lines_BW.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: top right; */
+
+}
+
+.hero .container {
+  padding: 60px 0;
+}
+
+.hero .container .heroLeft {
+  width: 500px;
+}
+
+.hero .heroTitle {
+  font-size: 46px;
+  font-weight: 300;
+  color: rgb(114, 114, 114)
+}
+
+.hero .heroTitle .highlight {
+  color: var(--accent);
+  display: inline;
+}
+
+.hero p.heroTxt {
+  padding: 20px 0 0px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: rgb(80, 80, 80);
+}
+
+
+.hero .herotoptxt {
+  text-transform: uppercase;
+  color: rgb(150, 150, 150);
+  font-size: 14px;
+  letter-spacing: 4px;
+  display: block;
+}
+
+.heroBtns {
+  display: block;
+  margin: 40px 0 0 0;
+}
+
+.hero a.cta1 {
+  padding: 10px 40px;
+  margin: 30px 20px 20px 0;
+  background-color: var(--accent);
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.hero a.cta2 {
+  padding: 10px 40px;
+  margin: 30px 40px 20px 0;
+  background-color: rgb(211, 211, 211);
+  color: rgb(107, 107, 107);
+  border: 0;
+  border-radius: 4px;
+  text-decoration: none;
+}

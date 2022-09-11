@@ -1,0 +1,102 @@
+.defineUs {
+  background-color: #f6fbfe;
+  width: 100%;
+  padding: var(--homeSection);
+}
+
+.defineUs h2, .services h2, .customers h2, .footprint h2 {
+  font-family: 'open sans', sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+  color: var(--accent);
+  padding: 20px 0 20px;
+  text-align: center;
+}
+
+.defineUsTxt1 {
+  font-size: 20px;
+  color: var(--txtGrey2);
+  text-align: center;
+  width: 80%;
+  line-height: 1.4;
+  margin: 0 auto;
+}
+
+.defineUsBoxes {
+
+  margin: 26px 0 0 0;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  overflow: auto;
+  width: 100%;
+}
+
+.defineUsBox {
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  padding: 12px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.defineUsBox h2 {
+  padding: 10px;
+  color: var(--accent);
+  font-size: 20px;
+  font-weight: 100;
+  text-align: left;
+}
+
+.defineUsBox p {
+  padding: 0 10px 14px;
+  font-size: 14px;
+  color: var(--txtGrey1);
+}
+
+
+
+/* services  */
+
+.services, .customers, .footprint {
+  background-color: #ececec;
+  width: 100%;
+  padding: var(--homeSection);
+}
+
+.services {
+  background-color: #ececec;
+}
+
+.customers {
+  background-color: #ffffff;
+}
+
+.footprint {
+  background-color: #f4f4f6;
+  color: rgb(90, 90, 90);
+}
+
+.footprint .map {
+  display: flex;
+  align-items: top;
+  justify-content: top;
+}
+
+.footprint .countries {
+  align-items: top;
+  width: 230px;
+}
+
+.footprint .countries p {
+  padding: 60px 0 20px;
+  line-height: 1.6;
+}
+
+
+.footprint .countries li {
+  list-style: none;
+  line-height: 1.6;
+  padding: 0 0 0 20px;
+  font-size: 18px
+}

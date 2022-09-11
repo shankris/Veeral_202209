@@ -1,8 +1,15 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 100%;
+
 }
 
 .logo {
@@ -14,14 +21,21 @@ header .container {
 
 .logo__First {
   display: inline;
-  /* letter-spacing: -2px; */
-  font-weight: 800;
+  font-weight: 500;
   color: #fff;
 }
 
 .logo__Last {
   display: inline;
-  font-weight: 100;
+  font-weight: 300;
   letter-spacing: -.4px;
   color: rgb(199, 199, 199);
+}
+
+header button {
+  padding: 6px 30px;
+  background-color: var(--accent);
+  border: 1px solid rgb(128, 128, 128);
+  color: rgb(192, 192, 192);
+  border-radius: 4px;
 }

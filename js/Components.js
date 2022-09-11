@@ -12,12 +12,12 @@ class Header extends HTMLElement {
 
 <nav>
 <ul>
-  <li>Home</li>
-  <li>Products</li>
-  <li>Clients</li>
-  <li>Team</li>
-  <li>Work</li>
-  <li>Contact</li>
+  <li><span><img src="../img/icon_home.png"></span><a href="index.htm">Home</a></li>
+  <li><span><img src="../img/icon_products.png"></span><a href="products.htm">Products</a></li>
+  <li><span><img src="../img/icon_clients.png"></span><a href="clients.htm">Clients</a></li>
+  <li><span><img src="../img/icon_team.png"></span><a href="team.htm">Team</a></li>
+  <li><span><img src="../img/icon_career.png"></span><a href="career.htm">Career</a></li>
+<!--  <li>Contact</li>>  --->
 </ul>
 </nav>
 

@@ -1,11 +1,13 @@
     :root {
-      --accent: #113577;
+      --accent: #203060;
       --bg1: #eee;
       --bg2: #ddd;
 
       --txtLink: #333;
       --txt1: #000;
       --txt2: #fff;
+      --txtGrey1: rgb(105, 105, 105);
+      --txtGrey2: rgb(160, 160, 160);
       --txtDark1: #ddd;
       --txtLight1: #eee;
 
@@ -13,4 +15,7 @@
       --header: 70px;
       --main: calc(100vh - var(--header) - var(--footer));
       --footer: 60px;
+      --footerBg: #f8faf9;
+
+      --homeSection: 60px 0 60px 0;
     }
