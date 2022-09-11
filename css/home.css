@@ -9,11 +9,12 @@
   font-weight: 100;
   font-size: 40px;
   color: var(--accent);
-  padding: 20px 0 20px;
+  padding: 20px 0 10px;
   text-align: center;
+  line-height: 1;
 }
 
-.defineUsTxt1, .serviceText1 {
+.defineUsTxt1, .serviceText1, .footprint1 {
   font-size: 20px;
   color: var(--txtGrey2);
   text-align: center;
@@ -22,8 +23,18 @@
   margin: 0 auto;
 }
 
-.defineUsBoxes {
+@media only screen and (max-width: 800px) {
 
+  .defineUs h2, .services h2, .customers h2, .footprint h2 {
+    font-size: 30px;
+  }
+
+  .defineUsTxt1, .serviceText1, .footprint1 {
+    font-size: 16px;
+  }
+}
+
+.defineUsBoxes {
   margin: 26px 0 0 0;
   display: grid;
   gap: 20px;
@@ -100,9 +111,20 @@
   margin: 0px 0px;
 }
 
+@media only screen and (max-width: 500px) {
+  .services .container .list {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+
 .customers {
   background-color: #ffffff;
 }
+
+
+/* footprint */
 
 .footprint {
   background-color: #f4f4f6;
@@ -151,6 +173,7 @@
   .footprint .countries ul {
     columns: 3;
     height: auto;
+    padding: 20px 0 20px 0;
   }
 
   .footprint .countries {
