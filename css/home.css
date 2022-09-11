@@ -13,7 +13,7 @@
   text-align: center;
 }
 
-.defineUsTxt1 {
+.defineUsTxt1, .serviceText1 {
   font-size: 20px;
   color: var(--txtGrey2);
   text-align: center;
@@ -27,7 +27,7 @@
   margin: 26px 0 0 0;
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   overflow: auto;
   width: 100%;
 }
@@ -68,6 +68,38 @@
   background-color: #ececec;
 }
 
+.services .container .list {
+  margin: 30px 0;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.services .container .service {
+  max-width: 400px;
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  margin: 20px 0 0 0;
+}
+
+.services .container .service h2 {
+  text-align: left;
+  font-size: 20px;
+  padding: 0px 0 8px 0;
+}
+
+.services .container .service p {
+  font-size: 14px;
+  color: var(--txtGrey1);
+}
+
+
+.services .container .service .serviceIcon img {
+  width: 24px;
+  height: 24px;
+  margin: 0px 0px;
+}
+
 .customers {
   background-color: #ffffff;
 }
@@ -79,8 +111,8 @@
 
 .footprint .map {
   display: flex;
-  align-items: top;
-  justify-content: top;
+  align-items: center;
+  justify-content: center;
 }
 
 .footprint .countries {
@@ -94,9 +126,35 @@
 }
 
 
+.footprint .countries ul {
+  height: 360px;
+}
+
+
 .footprint .countries li {
   list-style: none;
   line-height: 1.6;
   padding: 0 0 0 20px;
-  font-size: 18px
+  font-size: 18px;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .footprint .map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .footprint .countries ul {
+    columns: 3;
+    height: auto;
+  }
+
+  .footprint .countries {
+    align-items: top;
+    width: 90%;
+  }
 }
