@@ -195,17 +195,41 @@
 
 /* Customers   */
 
-.customers .container .logos {
+
+.customers .container .logoBox {
+  width: 150px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+}
+
+.customers .container .logos1,
+.customers .container .logos2 {
   display: flex;
   justify-content: space-between;
-  width: 100%
+  width: 100%;
+  margin: 30px 0 30px 0;
 }
 
-.customers .container .logos .icon {
-  width: 80px;
+.customers .logo {
+  width: 130px;
+  filter: grayscale(100%);
 }
 
-.customers .container .logos img {
-  width: 100px;
-  /* height: auto; */
+
+.customers #logo1 {
+  width: 200px;
+}
+
+.customers #logo2 {
+  width: 130px;
+}
+
+.customers #logo3 {
+  width: 170px;
+}
+
+.customers #logo8 {
+  width: 90px;
 }

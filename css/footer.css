@@ -1,10 +1,6 @@
 footer {
   background-color: var(--footerBg);
   padding: 30px 0;
-
-  /* background-image: url(../img/hero_power-lines_fliped.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; */
 }
 
 footer .container .footerContent {
