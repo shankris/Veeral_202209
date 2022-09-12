@@ -1,3 +1,95 @@
 footer {
   background-color: var(--footerBg);
+  padding: 30px 0;
+
+  /* background-image: url(../img/hero_power-lines_fliped.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
+
+footer .container .footerContent {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin: 0 0 70px 0;
+}
+
+
+.footerBox {
+  background-color: rgb(236, 236, 236);
+  padding: 30px;
+}
+
+footer .footerIcon {
+
+  width: 30px;
+  height: 30px;
+  display: block;
+  /* padding: 0 0 30px 0; */
+
+}
+
+
+footer h5 {
+  padding: 20px 0 20px;
+  color: var(--txtGrey2);
+  font-size: 16px;
+  font-family: 'open sans', sans-serif;
+}
+
+
+footer h6 {
+  color: rgb(170, 170, 170);
+}
+
+footer p {
+  color: var(--txtGrey2);
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(22, 75, 117);
+  font-size: 16px;
+  padding: 10px 0 0 0;
+}
+
+/* 
+footer .container .contact {
+  display: flex;
+  margin: 20px 0 0 0;
+}
+
+footer .container .contact .icon {
+  width: 70px;
+}
+
+.footerIcon {
+  width: 30px;
+  height: 30px;
+  margin: 4px 16px 16px 16px;
+}
+
+.location {
+  color: var(--txtGrey1);
+}
+
+
+.location h4 {
+  font-size: 20px;
+  color: var(--accent);
+  font-weight: 100;
+  padding: 0 0 10px 0;
+}
+
+.location a {
+  text-decoration: none;
+  color: rgb(22, 75, 117);
+}
+
+.footerContent {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+} */

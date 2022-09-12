@@ -14,7 +14,7 @@
       --fonts: 'open sans', sans-serif;
       --header: 70px;
       --main: calc(100vh - var(--header) - var(--footer));
-      --footer: 60px;
+      --footer: 500px;
       --footerBg: #f8faf9;
 
       --homeSection: 40px 0 40px 0;

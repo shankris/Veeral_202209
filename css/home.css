@@ -181,3 +181,31 @@
     width: 90%;
   }
 }
+
+@media only screen and (max-width: 600px) {
+
+  .footprint .countries ul {
+    columns: 2;
+    height: auto;
+    padding: 20px 0 20px 0;
+  }
+
+}
+
+
+/* Customers   */
+
+.customers .container .logos {
+  display: flex;
+  justify-content: space-between;
+  width: 100%
+}
+
+.customers .container .logos .icon {
+  width: 80px;
+}
+
+.customers .container .logos img {
+  width: 100px;
+  /* height: auto; */
+}
