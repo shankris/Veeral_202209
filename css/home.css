@@ -197,39 +197,35 @@
 
 
 .customers .container .logoBox {
-  width: 150px;
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-
-}
-
-.customers .container .logos1,
-.customers .container .logos2 {
-  display: flex;
-  justify-content: space-between;
   width: 100%;
-  margin: 30px 0 30px 0;
-}
-
-.customers .logo {
-  width: 130px;
-  filter: grayscale(100%);
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 
-.customers #logo1 {
-  width: 200px;
+.logoBox2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.customers #logo2 {
-  width: 130px;
+.logoBox .logo {
+  width: 120px;
+  height: auto;
+  text-align: center;
 }
 
-.customers #logo3 {
-  width: 170px;
-}
+@media only screen and (max-width: 600px) {
+  .customers .container .logoBox {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+  }
 
-.customers #logo8 {
-  width: 90px;
+  .logoBox .logo {
+    width: 180px;
+  }
+
+
+
 }

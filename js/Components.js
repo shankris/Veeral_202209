@@ -44,7 +44,7 @@ class Footer extends HTMLElement {
 
         <div class="footerBox">
           <img src="img/Icon_location.png" class="footerIcon">
-          <h5>Address</h5>
+          <h5>Meet Us</h5>
           <p>B-29 GIDC, Sector-25,<br>
             Gandhinagar - 382024 <br>
             Gujarat, India</p><br>
