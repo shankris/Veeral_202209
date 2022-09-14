@@ -16,6 +16,8 @@ class Header extends HTMLElement {
   <li><span><img src="img/icon_products.png"></span><a href="products.htm">Products</a></li>
   <li><span><img src="img/icon_clients.png"></span><a href="clients.htm">Clients</a></li>
   <li><span><img src="img/icon_team.png"></span><a href="team.htm">Team</a></li>
+  <li><span><img src="img/icon_team.png"></span><a href="support.htm">Support</a></li>
+  <li><span><img src="img/icon_team.png"></span><a href="news.htm">News</a></li>
   <li><span><img src="img/icon_career.png"></span><a href="career.htm">Career</a></li>
 <!--  <li>Contact</li>>  --->
 </ul>

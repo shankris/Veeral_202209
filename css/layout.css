@@ -19,12 +19,12 @@ main {
 }
 
 .container {
-  width: 96%;
-  max-width: 1200px;
+  max-width: 96%;
+  width: 1200px;
   margin: 0 auto;
   padding: 10px;
 }
 
 .pt100 {
-  padding: 100px 0 100px 0;
+  padding: 70px 0 100px 0;
 }
