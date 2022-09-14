@@ -10,3 +10,17 @@
 @import "nav.css";
 @import "home.css";
 @import "footer.css";
+
+@import "products.css";
+
+
+h1 {
+  font-family: 'open sans', sans-serif;
+  font-weight: 100;
+  font-size: 44px;
+  color: var(--accent);
+  padding: 20px 0 10px;
+  text-align: center;
+  line-height: 1;
+}
+}

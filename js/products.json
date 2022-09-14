@@ -1,0 +1,86 @@
+[
+  {
+    "image": "./img/products/350A H-Bridge, Air cooled IGBT stack.jpg",
+    "title": "350A H-Bridge, Air cooled IGBT stack",
+    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "price": "9,99"
+  },
+  {
+    "image": "./img/products/Solar Stack.jpg",
+    "title": "Solar Stack",
+    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "price": "9,99"
+  },
+  {
+    "image": "./img/products/IGBT stack for HF inverter.jpg",
+    "title": "IGBT stack for HF inverter",
+    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "price": "9,99"
+  },
+  {
+    "image": "./img/products/Thyristor and Diode stacks 1.jpg",
+    "title": "Thyristor and Diode stacks",
+    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "price": "9,99"
+  },
+  {
+    "image": "./img/products/Power Quality Converters 1.jpg",
+    "title": "Power Quality Converters",
+    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "price": "9,99"
+  },
+  {
+    "image": "./img/products/12kA Fast Power Supply 1.jpg",
+    "title": "12kA Fast Power Supply",
+    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "price": "9,99"
+  },
+  {
+    "image": "./img/products/250kVA High frequency IGBT stack.png",
+    "title": "250kVA High frequency IGBT stack",
+    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "price": "9,99"
+  },
+  {
+    "image": "./img/products/12kA Fast Power Supply 1.jpg",
+    "title": "12kA Fast Power Supply",
+    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "price": "9,99"
+  },
+  {
+    "image": "./img/products/HV Power supply 1.jpg",
+    "title": "HV Power supply",
+    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "price": "9,99"
+  },
+  {
+    "image": "./img/products/Rectifier Stack.png",
+    "title": "Rectifier Stack",
+    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "price": "9,99"
+  },
+  {
+    "image": "./img/products/12kA Fast Power Supply 1.jpg",
+    "title": "IGBT stack for 800kW Windmill",
+    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "price": "9,99"
+  },
+  {
+    "image": "./img/products/Water Cooled IGBT Stack 1.jpg",
+    "title": "Water Cooled IGBT Stack",
+    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "price": "9,99"
+  },
+  {
+    "image": "./img/products/IGBT stack for 1.65MW Windmill.jpg",
+    "title": "IGBT stack for 1.65MW Windmill",
+    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "price": "9,99"
+  },
+  {
+    "image": "./img/products/Customized Solutions for Industrial Needs 1.jpg",
+    "title": "Customized Solutions for Industrial Needs",
+    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "price": "9,99"
+  }
+]
