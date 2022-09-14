@@ -17,10 +17,9 @@
 h1 {
   font-family: 'open sans', sans-serif;
   font-weight: 100;
-  font-size: 44px;
+  font-size: 36px;
   color: var(--accent);
   padding: 20px 0 10px;
-  text-align: center;
+  /* text-align: center; */
   line-height: 1;
-}
 }
