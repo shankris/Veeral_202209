@@ -11,7 +11,7 @@ http.onload = function () {
 	               <img src="${item.image}" alt="${item.description}" class="productListImg">
 	               <p class="title">${item.title}</p>
 	               <p class="description">${item.description}</p>
-	               <p class="more"><a href="">Find out more</a></p>
+	               <p class="more"><a href="productDetail.htm">Find out more</a></p>
 	            </div>
 	         `;
 		}
