@@ -1,0 +1,74 @@
+[
+  {
+    "image": "./img/team/VaruneshKumar.png",
+    "fname": "Varunesh",
+    "lname": "Kumar",
+    "Desig": "CMD",
+    "info": "IIT Kanpur<br>40 years experience",
+    "email": "varunesh@veeral.com"
+  },
+  {
+    "image": "./img/team/ChiragBhatt.png",
+    "fname": "Chirag",
+    "lname": "Bhatt",
+    "Desig": "Chief Engineer",
+    "info": "20+ years experience<br />Power Electronics & DSP control",
+    "email": "chirag@veeral.com"
+  },
+  {
+    "image": "./img/team/YogeshPandya.png",
+    "fname": "Yogesh",
+    "lname": "Pandya",
+    "Desig": "Operations Manager",
+    "info": "25+ years experience <br> Factory management & operations",
+    "email": "yogesh@veeral.com"
+  },
+  {
+    "image": "./img/team/KaushikPrajapati.png",
+    "fname": "Kaushik",
+    "lname": "Prajapati",
+    "Desig": "Asst. Project Manager",
+    "info": "15+ years experience<br>Power Electronics & Microcontrollers",
+    "email": "kaushik@veeral.com"
+  },
+  {
+    "image": "./img/team/KavanBhatt.png",
+    "fname": "Kavan",
+    "lname": "Bhatt",
+    "Desig": "Senior Engineer",
+    "info": "",
+    "email": "kavan@veeral.com"
+  },
+  {
+    "image": "./img/team/SajiVarghese.png",
+    "fname": "Saji",
+    "lname": "Varghese",
+    "Desig": "&nbsp;",
+    "info": "Logistics & Customer",
+    "email": "info@veeral.com"
+  },
+  {
+    "image": "./img/team/TushitDhru.png",
+    "fname": "Tushit",
+    "lname": "Dhru",
+    "Desig": "Senior Accountant",
+    "info": "Accounts",
+    "email": "accounts@veeral.com"
+  },
+  {
+    "image": "./img/team/SanjayParmar.png",
+    "fname": "Sanjay",
+    "lname": "Parmar",
+    "Desig": "Mechanical Design Head",
+    "info": "",
+    "email": "sanjay@veeral.com"
+  },
+  {
+    "image": "./img/team/PriyankaAmin.png",
+    "fname": "Priyanka",
+    "lname": "Amin",
+    "Desig": "Production & Testing. ",
+    "info": "",
+    "email": "priyanka@veeral.com"
+  }
+]

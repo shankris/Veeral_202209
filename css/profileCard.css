@@ -1,0 +1,101 @@
+.teamCards {
+  display: grid;
+  gap: 30px 40px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  padding: 40px 0 0 0;
+  z-index: 0;
+}
+
+.card-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.35);
+  color: #4b4b4b;
+  max-width: 100%;
+  padding: 20px 0 0;
+  text-align: center;
+  overflow: hidden;
+
+}
+
+.card-container .name {
+  font-family: 'open sans';
+  font-size: 22px;
+  font-weight: 100;
+  padding: 20px 0 0 0;
+}
+
+.card-container .nameLast {
+  text-transform: uppercase;
+  display: inline;
+  color: rgb(168, 164, 164);
+}
+
+.card-container .position {
+  padding: 6px 0 10px 0;
+  font-size: 14px;
+  color: #838383;
+}
+
+.card-container .pro {
+  color: #231E39;
+  background-color: #FEBB0B;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 3px 7px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.card-container img {
+  /* border: 1px solid #494949; */
+  border-radius: 50%;
+  padding: 7px;
+  height: 200px;
+  width: 200px;
+}
+
+.card-container .about {
+  background-color: #e6e6e6;
+  color: #3d3d3d;
+  text-align: left;
+  padding: 15px 0 20px 0;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 1.6;
+  height: 100px;
+}
+
+
+.card-container .about p {
+  font-size: 14px;
+}
+
+
+.card-container .about a {
+
+  display: block;
+  text-decoration: none;
+  color: rgb(190, 190, 190);
+  padding: 10px;
+  /* border: 1px solid #fff; */
+
+}
+
+
+.skills ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills ul li {
+  border: 1px solid #2D2747;
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 7px 7px 0;
+  padding: 7px;
+}
