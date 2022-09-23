@@ -2,6 +2,12 @@
   background-color: #f6fbfe;
   width: 100%;
   padding: var(--homeSection);
+
+  display: flex;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .defineUs h2, .windSection h2, .services h2, .customers h2, .solarSection h2, .footprint h2 {
@@ -333,4 +339,21 @@
 .solarSection .content p a {
   color: rgb(51, 51, 51);
   /* text-decoration: none; */
+}
+
+
+/* Research Section */
+
+
+.researchSection {
+  min-height: 800px;
+  padding: 20px 0;
+  background-color: rgb(220, 220, 242);
+  background-image: url(../img/pics/pic_research_3.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover;
+
+  position: relative;
+  z-index: 1;
 }

@@ -1,20 +1,67 @@
 .hero {
-  height: 500px;
+  height: 800px;
   width: 100%;
-  background-color: rgb(235, 232, 232);
-  line-height: 1.2;
-  margin-top: var(--header);
+  position: relative;
 
-  /* background-image: url(../img/hero_power-lines.jpg); */
-  /* filter: grayscale(100%); */
-  /* background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(92, 92, 92)); */
-  background: linear-gradient(to left, rgba(255, 255, 255, 0) 1%,
-      rgba(255, 255, 255, 1)), url(../img/hero_power-lines_BW.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* background-position: top right; */
-
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
+
+video {
+  /** Simulationg background-size: cover */
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+.video-wrapper {
+  /* Telling our absolute positioned video to 
+  be relative to this element */
+  position: relative;
+
+  width: 100%;
+  height: 800px;
+
+  /* Will not allow the video to overflow the 
+  container */
+  overflow: hidden;
+
+  /* Centering the container's content vertically 
+  and horizontally */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroVdo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* @media (max-aspect-ratio: 16/9) {
+  .heroVdo {
+    width: auto;
+    height: 100%;
+  }
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .heroVdo {
+    width: 100%;
+    height: auto;
+  }
+} */
+
 
 .hero .container {
   padding: 50px 0;
@@ -22,33 +69,48 @@
 
 .hero .container .heroLeft {
   width: 500px;
+  z-index: 10;
 }
 
 .hero .heroTitle {
   font-size: 46px;
   font-weight: 300;
-  color: rgb(114, 114, 114)
+  color: rgb(194, 194, 194);
+  text-align: left;
+  line-height: 1.1;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px;
 }
 
 .hero .heroTitle .highlight {
-  color: var(--accent);
   display: inline;
+  color: #fff;
 }
 
 .hero p.heroTxt {
-  padding: 20px 0 0px;
+  padding: 10px 0 0px;
   line-height: 1.6;
   font-size: 18px;
-  color: rgb(80, 80, 80);
+  color: rgb(179, 179, 179);
+  text-align: left;
+  width: 800px;
+  max-width: 96%;
+  text-align: center;
+
 }
 
 
 .hero .herotoptxt {
   text-transform: uppercase;
-  color: rgb(150, 150, 150);
+  color: #fff;
   font-size: 14px;
   letter-spacing: 4px;
   display: block;
+  text-align: left;
+  margin: 590px 0 0 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+
 }
 
 .heroBtns {
