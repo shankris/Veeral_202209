@@ -1,0 +1,15 @@
+.TestBg {
+  background-image: url("../img/TestLanding.jpg");
+  background-color: #eee;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.herotoptxt, .heroTitle {
+  background-color: rgb(90, 90, 90) !important;
+  border-radius: 6px;
+}
